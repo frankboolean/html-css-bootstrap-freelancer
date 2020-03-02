@@ -13,21 +13,95 @@
 }
 
 /* nav */
+.numero{
+  background-color: #2c3e50;
+}
+
 .start{
   float: left;
-
+  color: #fff;
+  font-size: 1.75em;
 }
 
 .destr{
   float: right;
   padding: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.destr a{
+  color: white;
+  margin: 10px;
+}
+
+.primo{
+  margin-top: 80px;
+  background-color: lightseagreen;
+}
+
+/* primo */
+.bimbo{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.primo h1{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.primo h2{
+  text-align: center;
+  color: white;
+  margin-bottom: 150px;
+}
+/* parte seconda */
+.secondo h1{
+  text-align: center;
+  color: #2c3e50;
+}
+.casa{
+  width: 300px;
+  float: left;
+  margin: 20px;
+  margin-left: 50px;
+  border-radius: 4px;
+}
+
+/* parte terza */
+.terza{
+  background-color: lightseagreen;
+}
+
+.terza h1, p{
+  text-align: center;
+  color: white;
+  margin: 70px;
+}
+
+.btn{
+  background-color: lightseagreen;
+  border:1px solid white;
+}
+
+/* Quarta */
+
+.quarta h1{
+  text-align: center;
+}
+/* footer */
+.fine{
+  background-color: #2c3e50;
 }
 
 
-.row{
-background-color: blue;
-}
+.listaprima{
+  float: left;
+  margin: 20px;
+  color: white;
 
-section{
-  background-color: blue;
 }
