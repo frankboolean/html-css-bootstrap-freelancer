@@ -9,7 +9,7 @@
 
 [class*="col-"]{
   float: left;
-  border: 1px solid black;
+  
 }
 
 /* nav */
@@ -104,4 +104,10 @@
   margin: 20px;
   color: white;
 
+}
+
+
+.ultime{
+  height: 70px;
+  background-color: black;
 }
