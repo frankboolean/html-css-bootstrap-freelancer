@@ -1,0 +1,33 @@
+
+/* regole generali */
+
+.container::after{
+ content:"";
+ display: table;
+ clear: both;
+}
+
+[class*="col-"]{
+  float: left;
+  border: 1px solid black;
+}
+
+/* nav */
+.start{
+  float: left;
+
+}
+
+.destr{
+  float: right;
+  padding: 30px;
+}
+
+
+.row{
+background-color: blue;
+}
+
+section{
+  background-color: blue;
+}
